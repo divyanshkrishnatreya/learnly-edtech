@@ -64,9 +64,12 @@ export default function Home() {
               Log in
             </button>
 
-            <button className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-slate-800">
+            <Link
+              href="/courses"
+              className="rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-700"
+            >
               Get started
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
@@ -96,9 +99,12 @@ export default function Home() {
               Explore courses
             </Link>
 
-            <button className="rounded-lg border border-slate-200 px-6 py-3.5 font-medium text-slate-700 hover:bg-slate-50">
+            <Link
+              href="/how-it-works"
+              className="rounded-lg border border-slate-200 px-6 py-3.5 font-medium text-slate-700 hover:bg-slate-50"
+            >
               How it works
-            </button>
+            </Link>
           </div>
 
           <div className="mt-10 flex gap-8 text-sm text-slate-500">
@@ -276,9 +282,12 @@ export default function Home() {
             that make a difference.
           </p>
 
-          <button className="mt-8 rounded-lg bg-white px-6 py-3.5 font-medium text-slate-900 hover:bg-slate-100">
+          <Link
+            href="/courses"
+            className="mt-8 inline-block rounded-lg bg-white px-6 py-3.5 font-medium text-slate-900 hover:bg-slate-100"
+          >
             Explore courses
-          </button>
+          </Link>
         </div>
       </section>
 
